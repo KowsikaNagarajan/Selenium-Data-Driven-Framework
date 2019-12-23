@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dataproviderlogin"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.337">
+  <properties />
+  
+  
+            <testcase name="clicksignin" time="3.236" classname="Testcases.dataproviderlogin" />
+                <testcase name="clicksignin" time="4.003" classname="Testcases.dataproviderlogin" />
+                <testcase name="clicksignin" time="3.098" classname="Testcases.dataproviderlogin" />
+      
+</testsuite>

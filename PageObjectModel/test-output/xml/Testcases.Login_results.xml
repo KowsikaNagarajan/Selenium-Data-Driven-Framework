@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExsistingLogin"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.097">
+  <properties />
+  
+  
+            <testcase name="clicksignin" time="2.261" classname="Testcases.Login" />
+                <testcase name="exslogin" time="1.836" classname="Testcases.Login" />
+      
+</testsuite>

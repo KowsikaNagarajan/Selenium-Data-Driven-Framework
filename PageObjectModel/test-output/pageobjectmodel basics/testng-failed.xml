@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [pageobjectmodel basics]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="Listeners.customlisteners"/>
+  </listeners>
+  <test name="createnewaccount(failed)">
+    <classes>
+      <class name="Testcases.accountcreation2">
+        <methods>
+          <include name="teardown"/>
+          <include name="newcustomersignin"/>
+          <include name="setup"/>
+          <include name="Entercusdetails"/>
+        </methods>
+      </class> <!-- Testcases.accountcreation2 -->
+    </classes>
+  </test> <!-- createnewaccount(failed) -->
+</suite> <!-- Failed suite [pageobjectmodel basics] -->
